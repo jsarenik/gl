@@ -1,0 +1,7 @@
+X: 1
+T: Example with Lyrics
+M: 4/4
+L: 1/4
+K: C
+C D E F | G2 G2 |
+w: Syll-a-bles are here. Now they stop.

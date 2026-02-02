@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="lightning" content="anyone@anyone.eu.org">
+<link rel="stylesheet" href="/css/abcjs-audio.css">
+<!-- <link rel="stylesheet" href="/css/bulma.min.css"> -->
+<title>abc</title>
+</head>
+<body onload="load()">
+<div class="content mt-1 pb-1">
+<!-- section class="section" -->
+<div class="container">
+<div class="columns is-centered">
+<div class="column is-6-desktop is-8-tablet">
+<div class="box">
+<div id="notes"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- /section -->
+</div>
+
+<script src="/js/abcjs-basic-min.js" crossorigin="anonymous"></script>
+<!-- <script src="/js/abcjs-plugin-min.js" crossorigin="anonymous"></script> -->
+<script>
+function load() {
+ABCJS.renderAbc("notes", "X:1\nK:D\nDD AA|BBA2|\n");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de" data-base-url="https://www.liederindex.de/">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Sammler &bull; Liederindex.de</title>
+
+	<meta name="og:site_name" content="Liederindex.de" />
+										
+	<link href="https://www.liederindex.de/lib/bootstrap-4.3.1-dist/css/bootstrap.min.css?v=7525b86a20" rel="stylesheet"><link href="https://www.liederindex.de/lib/mediaelement-4.2.8/mediaelementplayer.min.css?v=7525b86a20" rel="stylesheet"><link href="https://www.liederindex.de/css/frontend.css?v=7525b86a20" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png?v=7525b86a20">
+	<link rel="manifest" href="img/favicons/site.webmanifest?v=7525b86a20">
+	<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg?v=7525b86a20" color="#7dcc35">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico?v=7525b86a20">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml?v=7525b86a20">
+	<meta name="theme-color" content="#3b3b3b">
+
+	<base href="https://www.liederindex.de/">
+
+</head>
+
+<body class="enable-tooltips">
+<header>
+	<div id="header-bar"></div>
+	<div class="container">
+		<a id="logo" href="https://www.liederindex.de/">
+			<img src="https://www.liederindex.de/img/logo-liederindex.png?v=7525b86a20" />
+		</a>
+		<button id="menu-toggle"><span class="icon-bars"></span></button>
+		<nav id="menu">
+			<ul>
+				<li><a href="https://www.liederindex.de/"><span class="icon-home"></span> Start</a></li><li class="active"><a href="https://www.liederindex.de/songs"><span class="icon-music"></span> Lieder</a></li><li><a href="https://www.liederindex.de/authors"><span class="icon-users"></span> Urheber</a></li><li><a href="https://www.liederindex.de/blog"><span class="icon-comment"></span> Blog</a></li>			</ul>
+		</nav>
+		<form id="header-search" action="https://www.liederindex.de/songs">
+			<input type="text" name="q" placeholder="Suche nach Liedern, Urhebern, ..." />
+			<button type="submit"><span class="icon-search"></span></button>
+		</form>
+		<a id="collector" href="https://www.liederindex.de/collector"
+			data-file-ids=""
+			data-hint="&Uuml;ber den Sammler k&ouml;nnen Sie ein Notenheft mit mehreren Notens&auml;tzen erzeugen. F&uuml;gen Sie dazu zun&auml;chst ein oder mehrere Notens&auml;tze dem Sammler hinzu."
+			data-max-files="25"
+			data-max-files-hint="Es k&ouml;nnen maximal 25 Dateien in den Sammler gelegt werden.">
+			<span class="collector-icon">
+				<span class="icon-inbox"></span>
+				<span class="collector-count"><span>0</span></span>
+			</span>
+			<span class="collector-label">
+				Sammler			</span>
+		</a>
+	</div>
+</header>
+
+<article>
+	<div class="container">
+
+							<h1>
+				Sammler			</h1>
+		<div id="collector-nofiles" class="alert alert-info" >
+	Sie haben noch keine Noten in den Sammler eingef&uuml;gt. &Ouml;ffnen Sie die gew&uuml;nschten Lieder und dr&uuml;cken dort auf den Sammler-Knopf, um Lieder einzusammeln. Anschlie&szlig;end k&ouml;nnen Sie &uuml;ber diese Seite ein Notenheft erzeugen.</div>
+</div>
+</article>
+
+<footer>
+	<div class="container">
+		<div class="footer-row">
+			<div class="footer-left">
+				&copy; 2026 Liederindex.de			</div>
+			<div class="footer-right">
+				<a href="https://www.liederindex.de/contact">Kontakt</a><a href="https://www.liederindex.de/imprint">Impressum</a><a href="https://www.liederindex.de/privacy">Datenschutz</a>			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://www.liederindex.de/lib/jquery-3.3.1.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/lib/popper.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/lib/bootstrap-4.3.1-dist/js/bootstrap.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/lib/mediaelement-4.2.8/mediaelement-and-player.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/js/frontend.js?v=7525b86a20"></script><script src="https://www.liederindex.de/lib/jquery-ui-1.11.4/jquery-ui.min.js?v=7525b86a20"></script>
+	<!-- Matomo -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['disableCookies']);
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u = "https://matomo.vvcg.de/";
+			_paq.push(['setTrackerUrl', u + 'piwik.php']);
+			_paq.push(['setSiteId', '24']);
+			var d = document,
+				g = d.createElement('script'),
+				s = d.getElementsByTagName('script')[0];
+			g.type = 'text/javascript';
+			g.async = true;
+			g.defer = true;
+			g.src = u + 'piwik.js';
+			s.parentNode.insertBefore(g, s);
+		})();
+	</script>
+	<noscript>
+		<img src="https:https://matomo.vvcg.de/piwik.php?idsite=24&amp;rec=1&amp;action_name=Sammler%20%E2%80%A2%20Liederindex.de" style="border:0" alt="" />
+	</noscript>
+	<!-- End Matomo Code -->
+
+</body>
+
+</html>

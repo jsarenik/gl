@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="examples-styles.css"/>
+<link rel="stylesheet" href="/css/bulma.min.css">
+
+	<title>abcjs: Add Note Names</title>
+	<script src="/dist/abcjs-basic-min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var abc = "X:1\n" +
+"T:Lobsinget dem Herrn\n" +
+"C:Melodie: Johann Jakob Vetter (1789-1871)\n" +
+"M:3/4\n" +
+"L:1/8\n" +
+"K:Bb\n" +
+"%%score (V1 V2) (V3 V4)\n" +
+"V:V1 clef=treble\n" +
+"V:V2 clef=treble\n" +
+"V:V3 clef=bass\n" +
+"V:V4 clef=bass\n" +
+"% Strophe 1–4 (lyrics mainly under V:1)\n" +
+"[V:V1] F2 D2 | B,2 D2 | F2 F2 | E2 D2 | C2 C2 | D2 E2 | F2 F2 | c2 B2 | A2 G2 | F2 F2 | E2 E2 | F2 G2 | A2 B2 | c2 B2 | A2 G2 | F4 z2 | c2 B2 | A2 G2 | F2 F2 | E2 D2 | C2 C2 | D2 E2 | F2 F2 | B,2 c2 | d4 z2 ||\n" +
+"[V:V2] D2 B,2 | F,2 B,2 | D2 C2 | C2 B,2 | A,2 A,2 | B,2 C2 | D2 D2 | F2 E2 | D2 C2 | B,2 B,2 | C2 C2 | D2 E2 | F2 D2 | F2 E2 | D2 C2 | B,4 z2 | E2 D2 | C2 B,2 | A,2 A,2 | B,2 A,2 | G,2 G,2 | A,2 B,2 | C2 C2 | D2 E2 | F4 z2 ||\n" +
+"w: 1. Lob-sin-get dem Herrn, oh, prei-set Ihn gern! An-be-tung und Lob Ihm ge-büh-ren.\n" +
+"w: 2. Lob-singt Sei-ner Lieb, die ein-zig Ihn trieb, zu ster-ben für un-se-re Sün-den!\n" +
+"w: 3. Lob-singt Sei-ner Macht! Sein Werk ist voll-bracht: Er sit-zet zur Rech-ten des Va-ters.\n" +
+"w: 4. Lob-singt Sei-ner Treu, die im-mer-dar neu, bis Er uns zur Herr-lich-keit füh-ret!\n" +
+"[V:V3] B,2 F,2 | D,2 F,2 | B,2 A,2 | A,2 F,2 | F,2 F,2 | F,2 G,2 | A,2 A,2 | B,2 ^G,2 | A,2 A,2 | B,2 B,2 | G,2 G,2 | B,2 B,2 | c2 B,2 | c2 ^G,2 | A,2 A,2 | F,4 z2 | G,2 F,2 | E,2 D,2 | C,2 C,2 | D,2 C,2 | B,,2 B,,2 | C,2 D,2 | E,2 E,2 | F,2 G,2 | A,4 z2 ||\n" +
+"[V:V4] B,,2 B,,2 | B,,2 B,,2 | B,,2 F,2 | F,2 B,,2 | F,2 F,2 | B,,2 C,2 | D,2 D,2 | B,,2 E,2 | A,,2 A,,2 | B,,2 B,,2 | C,2 C,2 | G,,2 G,,2 | F,,2 G,,2 | C,2 C,2 | F,2 F,2 | B,,4 z2 | C,2 B,,2 | A,,2 G,,2 | F,,2 F,,2 | B,,2 A,,2 | G,,2 G,,2 | F,,2 F,,2 | C,2 C,2 | B,,2 C,2 | F,,4 z2 ||\n"
+
+		function load() {
+			ABCJS.renderAbc("paper", abc, {
+			  responsive: "resize",
+			  staffwidth: 800
+			});
+		}
+	</script>
+</head>
+<body onload="load()">
+  <div class="container">
+    <div id="paper"></div>
+  </div>
+</body>
+</html>

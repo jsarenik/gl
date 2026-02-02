@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="de" data-base-url="https://www.liederindex.de/">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Blog &bull; Liederindex.de</title>
+
+	<meta name="og:site_name" content="Liederindex.de" />
+										
+	<link href="https://www.liederindex.de/lib/bootstrap-4.3.1-dist/css/bootstrap.min.css?v=7525b86a20" rel="stylesheet"><link href="https://www.liederindex.de/lib/mediaelement-4.2.8/mediaelementplayer.min.css?v=7525b86a20" rel="stylesheet"><link href="https://www.liederindex.de/css/frontend.css?v=7525b86a20" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png?v=7525b86a20">
+	<link rel="manifest" href="img/favicons/site.webmanifest?v=7525b86a20">
+	<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg?v=7525b86a20" color="#7dcc35">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico?v=7525b86a20">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml?v=7525b86a20">
+	<meta name="theme-color" content="#3b3b3b">
+
+	<base href="https://www.liederindex.de/">
+
+</head>
+
+<body class="enable-tooltips">
+<header>
+	<div id="header-bar"></div>
+	<div class="container">
+		<a id="logo" href="https://www.liederindex.de/">
+			<img src="https://www.liederindex.de/img/logo-liederindex.png?v=7525b86a20" />
+		</a>
+		<button id="menu-toggle"><span class="icon-bars"></span></button>
+		<nav id="menu">
+			<ul>
+				<li><a href="https://www.liederindex.de/"><span class="icon-home"></span> Start</a></li><li><a href="https://www.liederindex.de/songs"><span class="icon-music"></span> Lieder</a></li><li><a href="https://www.liederindex.de/authors"><span class="icon-users"></span> Urheber</a></li><li class="active"><a href="https://www.liederindex.de/blog"><span class="icon-comment"></span> Blog</a></li>			</ul>
+		</nav>
+		<form id="header-search" action="https://www.liederindex.de/songs">
+			<input type="text" name="q" placeholder="Suche nach Liedern, Urhebern, ..." />
+			<button type="submit"><span class="icon-search"></span></button>
+		</form>
+		<a id="collector" href="https://www.liederindex.de/collector"
+			data-file-ids=""
+			data-hint="&Uuml;ber den Sammler k&ouml;nnen Sie ein Notenheft mit mehreren Notens&auml;tzen erzeugen. F&uuml;gen Sie dazu zun&auml;chst ein oder mehrere Notens&auml;tze dem Sammler hinzu."
+			data-max-files="25"
+			data-max-files-hint="Es k&ouml;nnen maximal 25 Dateien in den Sammler gelegt werden.">
+			<span class="collector-icon">
+				<span class="icon-inbox"></span>
+				<span class="collector-count"><span>0</span></span>
+			</span>
+			<span class="collector-label">
+				Sammler			</span>
+		</a>
+	</div>
+</header>
+
+<article>
+	<div class="container">
+
+							<h1>
+				Blog			</h1>
+			<div class="card bg-light">
+		<div class="card-header">
+			<a href="https://www.liederindex.de/blog/15">
+				<h4 class="mb-0">
+					<span class="text-muted">24.03.2020</span>
+					Schnelles Auffinden von Liedern				</h4>
+			</a>
+		</div>
+		<div class="card-body">
+			<p>Liebe Nutzer,</p>
+<p>wir alle stehen im Moment vor einer sehr ungewohnten Situation, auch im Hinblick auf das gemeinsame Singen.</p>
+<p>Wir sind darauf angesprochen worden, wie man das Auffinden von bekannten Liedern vereinfachen kann und weisen deshalb auf folgende M&ouml;glichkeit hin:</p>
+<p>F&uuml;r einige Liederb&uuml;cher k&ouml;nnen die auf liederindex.de vorhandenen Lied Eintr&auml;ge auch durch die Eingabe einer Kurzbezeichnung f&uuml;r das Liederbuch und die Liednummer im Feld "Suchbegriff" ausgew&auml;hlt werden. Z. B. "GL 140" f&uuml;hrt direkt zu dem Lied "Herr, das Wort aus Deinem Munde".</p>
+<p>Realisiert ist diese Funktion f&uuml;r&nbsp;</p>
+<p>GL - Geistliche Lieder (CSV)</p>
+<p>GL1 - Glaubenslieder 1</p>
+<p>JN1 bis JN6 f&uuml;r Jesu Name</p>		</div>
+	</div>
+	<div class="card bg-light">
+		<div class="card-header">
+			<a href="https://www.liederindex.de/blog/14">
+				<h4 class="mb-0">
+					<span class="text-muted">06.10.2019</span>
+					Der neue Liederindex ist da				</h4>
+			</a>
+		</div>
+		<div class="card-body">
+			<p>Endlich ist es so weit - und wir hoffen, dass Sie sich schnell an das neue Layout gew&ouml;hnt haben.</p>
+<p>Neben dem Layout haben wir an der bisherigen Funktionalit&auml;t lediglich die Liedsuche nach Chorbesetzung gesch&auml;rft:</p>
+<p>Hier finden Sie ab sofort die Chorbesetzung unabh&auml;ngig von der Frage, ob eine Instrumentalbegleitung vorhanden ist. Diese Abfrage finden Sie jetzt im Feld "Mit Instrumentalbegleitung". Der Vorteil: Sie k&ouml;nnen nicht nur Lieder mit Instrumentalbegleitung suchen, sondern sehr gezielt Lieder mit Instrumentalbegleitung und 4 M&auml;nnerstimmen.</p>
+<p>Im Feld "Chorbesetzung" finden Sie den EIntrag "Instrumental" nur noch, wenn es sich um einen Satz f&uuml;r Instrumente, aber ohne Singstimmen, handelt.</p>
+<p>&Uuml;ber die neuen Funktionen werden wir an dieser Stelle in K&uuml;rz informieren.</p>		</div>
+	</div>
+	<div class="card bg-light">
+		<div class="card-header">
+			<a href="https://www.liederindex.de/blog/13">
+				<h4 class="mb-0">
+					<span class="text-muted">21.09.2019</span>
+					Liederindex demn&auml;chst in neuem Layout				</h4>
+			</a>
+		</div>
+		<div class="card-body">
+			<p>In der letzten Zeit haben wir neben der permanenten Erweiterung der Inhalte auch intensiv an der Neuentwicklung der Webseite gearbeitet. Damit möchten wir vor allen Dingen den Nutzern begegnen, die Liederindex.de auch von mobilen Endgeräten aus nutzen. </p>
+
+<p>
+Da die Vorbereitungen bis auf geringfügige Restarbeiten abgeschlossen sind, planen wir, in den nächsten Tagen Liederindex.de im neuen Gewand zu veröffentlichen. </p>
+
+<p>
+Wir haben uns bemüht, die Bedienung so zu gestalten, dass die bisherigen Funktionen ohne große Umgewöhnung genutzt werden können. Wir haben aber auch einige nützliche Erweiterungen realisiert, die wir Ihnen nach Veröffentlichung vorstellen werden.</p>		</div>
+	</div>
+	<div class="card bg-light">
+		<div class="card-header">
+			<a href="https://www.liederindex.de/blog/12">
+				<h4 class="mb-0">
+					<span class="text-muted">15.10.2018</span>
+					Erstver&ouml;ffentlichungen auf liederindex.de				</h4>
+			</a>
+		</div>
+		<div class="card-body">
+			<p>Wir freuen uns sehr, dass wir in letzter Zeit eine Reihe neuerer Lieder mit der Genehmigung zur Ver&ouml;ffentlichung erhalten haben, die bisher noch nicht in Liederb&uuml;chern erschienen sind. Teilweise handelt es sich um komplett neue Werke, teilweise wurden &auml;ltere Gedichte mit einem passenden Satz versehen oder es wurden neue Satzbearbeitungen hinzugef&uuml;gt.</p>
+<p>Damit die neuen Lieder leichter gefunden werden k&ouml;nnen, gibt es einen zus&auml;tzlichen Suchfilter "<a href="~/admin/beta.liederindex.de/songs?IsFirstPublication=1">Erstver&ouml;ffentlichung</a>".</p>
+<p>Wir w&uuml;nschen viel Freude beim Finden und Singen der neu ver&ouml;ffentlichten Lieder, zum eigenen inneren Gewinn und zur Weitergabe der Guten Botschaft unseres Herrn Jesus Christus.</p>		</div>
+	</div>
+	<div class="card bg-light">
+		<div class="card-header">
+			<a href="https://www.liederindex.de/blog/11">
+				<h4 class="mb-0">
+					<span class="text-muted">18.08.2018</span>
+					Warum sind manche bekannte Lieder nicht zu finden?				</h4>
+			</a>
+		</div>
+		<div class="card-body">
+			<p>Wir werden immer nach Liedern gefragt, die auf Liederindex vermisst werden. </p>
+
+<p>
+Einer der Hauptgründe ist, dass die rechtliche Situation noch nicht völlig geklärt ist. Völlige Freiheit zur Veröffentlichung und Verwendung eines Liedes besteht entweder dann, wenn <b>alle</b> Urheber (Dichter, Übersetzer, Komponisten) seit mehr als 70 Jahren nicht mehr leben. 
+In allen anderen Fällen holen wir vor einer Veröffentlichung zunächst das Einverständnis von den Urhebern oder von deren Nachkommen ein. </p>
+
+<p>Diese Arbeit braucht Zeit und gestaltet sich in manchen Fällen schwierig, insbesondere bei ausländischen und/oder bereits verstorbenen Urhebern. </p>
+
+<p> Diese Vorgehensweise gibt uns und unseren Nutzern aber die Sicherheit, dass die auf Liederindex.de veröffentlichten Lieder für nicht kommerzielle Zwecke uneingeschränkt vervielfältigt und verwendet werden können.</p>		</div>
+	</div>
+	<div class="card bg-light">
+		<div class="card-header">
+			<a href="https://www.liederindex.de/blog/10">
+				<h4 class="mb-0">
+					<span class="text-muted">22.07.2018</span>
+					Neues Kontaktformular				</h4>
+			</a>
+		</div>
+		<div class="card-body">
+			<p>Die allgemeine rechtliche Diskussion - und Verunsicherung - bez&uuml;glich der europ&auml;schischen Datenschutzgrundverordnung (EU-DSGVO) ist auch an Liederindex nicht spurlos vor&uuml;bergegangen. Aus Sicherheitsgr&uuml;nden hatten wir kurzfristig das <a href="~/contact">Kontaktformular</a> anonymisiert. Jetzt stehen die Felder f&uuml;r Absendeinformationen wieder zur Verf&uuml;gung.</p>
+<p>Wir bitten die Nutzer, die uns in letzter Zeit anonym geschrieben haben und noch eine Antwort erwarten, uns erneut <a href="~/contact">eine Nachricht zu schicken</a>.</p>		</div>
+	</div>
+	<div class="card bg-light">
+		<div class="card-header">
+			<a href="https://www.liederindex.de/blog/9">
+				<h4 class="mb-0">
+					<span class="text-muted">06.01.2018</span>
+					Das Jahr geht still zu Ende				</h4>
+			</a>
+		</div>
+		<div class="card-body">
+			<p>Für das Jahr 2018 wünschen wir allen Besuchern unserer Seite Gottes Segen. </p>
+
+<p>
+Im Oktober 2017 konnten wir das Lied „Das Jahr geht still zu Ende“ auf Liederindex.de veröffentlichen. Den Text hat Eleonore Fürstin von Reuß in ihrer Trauer um eine geliebte Freundin zum Jahreswechsel 1857/58 gedichtet. Wir hoffen, dass dieses Lied und auch andere Lieder, die in notvollen Zeiten entstanden sind, gerade denen, die durch schwierige Lebenssituationen gehen müssen, Hilfe und Trost geben, indem die Worte auf unseren Herrn Jesus Christus und Gott, unseren Vater, hinweisen, der uns ewigen Trost und gute Hoffnung gegeben hat durch die Gnade (2. Thess. 2,16).
+</p>		</div>
+	</div>
+	<div class="card bg-light">
+		<div class="card-header">
+			<a href="https://www.liederindex.de/blog/8">
+				<h4 class="mb-0">
+					<span class="text-muted">01.05.2017</span>
+					1.005 Lieder auf Liederindex.de ver&ouml;ffentlicht				</h4>
+			</a>
+		</div>
+		<div class="card-body">
+			<p>Und Gott gab Salomo Weisheit und sehr große Einsicht und Weite des Herzens, wie der Sand, der am Ufer des Meeres ist. Und er redete 3.000 Sprüche, und seine Lieder waren 1.005 (1. Kön. 5,9.12).</p>
+
+<p>
+Heute hat Liederindex.de die Zahl von 1.005 veröffentlichten Liedern erreicht. Wir freuen uns sehr über das stetige Wachstum dieser Webseite. Aber die Aussage über die Weisheit und Schaffenskraft Salomos im o. g. Bibelzitat macht uns bewusst, wie klein die Arbeit ist, die wir mit Liederindex.de tun dürfen. Denn einerseits waren bei den von uns veröffentlichten Liedern über 600 Dichter und Komponisten beteiligt, andererseits stellen wir vom Team Liederindex.de lediglich das bereit, was Gott durch andere Urheber wirken konnte. </p>
+
+<p>
+Wir würden uns sehr freuen, wenn die gestiegene Anzahl von Liedern den Nutzern von Liederindex.de zum Segen ist und zum vermehrten Singen anregt. 
+</p>		</div>
+	</div>
+	<div class="card bg-light">
+		<div class="card-header">
+			<a href="https://www.liederindex.de/blog/7">
+				<h4 class="mb-0">
+					<span class="text-muted">02.01.2017</span>
+					Wir w&uuml;nschen Gottes Segen zum neuen Jahr 2017				</h4>
+			</a>
+		</div>
+		<div class="card-body">
+			<p>„<a href="~/songs/2257">Ich singe Dir mit Herz und Mund</a>“ – so hat <a href="~/authors/147">Paul Gerhardt</a> auf die von Jahr zu Jahr unveränderlich währende Gnade Gottes geantwortet. Das ist auch unser Wunsch für uns selbst und für alle Nutzer von Liederindex.de. Gerne möchten wir dieses Ziel auch im Jahr 2017 mit weiteren Liedern und Sätzen unterstützen.</p>		</div>
+	</div>
+	<div class="card bg-light">
+		<div class="card-header">
+			<a href="https://www.liederindex.de/blog/6">
+				<h4 class="mb-0">
+					<span class="text-muted">28.06.2016</span>
+					&quot;Wenn ich, o Sch&ouml;pfer, Deine Macht&quot; als 600. Lied ver&ouml;ffentlicht				</h4>
+			</a>
+		</div>
+		<div class="card-body">
+			<p>Seit dem letzten News-Beitrag ist fast ein Jahr vergangen. Dafür hat sich in dieser Zeit inhaltlich einiges getan. Neben fast 200 neu eingestellten Liedern gab es manche Erweiterungen (z. B. weitere Notensätze) und auch Korrekturen, die u. a. aufgrund von Anregungen aus dem Nutzerkreis möglich waren.</p>
+
+<p>Wir freuen uns, dass die 600. Veröffentlichung (<a href="~/songs/4284">Wenn ich, o Schöpfer, Deine Macht</a>) ein altes Lied von <a href="~/authors/113">Christian Fürchtegott Gellert</a> ist, das insbesondere das Lob Gottes beinhaltet, der seine Größe und Allmacht für jeden Menschen deutlich erkennbar in Seiner Schöpfung dargestellt hat. </p>		</div>
+	</div>
+<div class="lister-pager"><ul class="pagination"><li class="page-item disabled"><span class="page-link">&laquo;</span></li><li class="page-item active"><a class="page-link" href="https://www.liederindex.de/blog?ListerRpp=10">1</a></li><li class="page-item"><a class="page-link" href="https://www.liederindex.de/blog?ListerRpp=10&ListerPage=2">2</a></li><li class="page-item"><a class="page-link" href="https://www.liederindex.de/blog?ListerRpp=10&ListerPage=2">&raquo;</a></li></ul></div></div>
+</article>
+
+<footer>
+	<div class="container">
+		<div class="footer-row">
+			<div class="footer-left">
+				&copy; 2026 Liederindex.de			</div>
+			<div class="footer-right">
+				<a href="https://www.liederindex.de/contact">Kontakt</a><a href="https://www.liederindex.de/imprint">Impressum</a><a href="https://www.liederindex.de/privacy">Datenschutz</a>			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://www.liederindex.de/lib/jquery-3.3.1.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/lib/popper.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/lib/bootstrap-4.3.1-dist/js/bootstrap.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/lib/mediaelement-4.2.8/mediaelement-and-player.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/js/frontend.js?v=7525b86a20"></script>
+	<!-- Matomo -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['disableCookies']);
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u = "https://matomo.vvcg.de/";
+			_paq.push(['setTrackerUrl', u + 'piwik.php']);
+			_paq.push(['setSiteId', '24']);
+			var d = document,
+				g = d.createElement('script'),
+				s = d.getElementsByTagName('script')[0];
+			g.type = 'text/javascript';
+			g.async = true;
+			g.defer = true;
+			g.src = u + 'piwik.js';
+			s.parentNode.insertBefore(g, s);
+		})();
+	</script>
+	<noscript>
+		<img src="https:https://matomo.vvcg.de/piwik.php?idsite=24&amp;rec=1&amp;action_name=Blog%20%E2%80%A2%20Liederindex.de" style="border:0" alt="" />
+	</noscript>
+	<!-- End Matomo Code -->
+
+</body>
+
+</html>

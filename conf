@@ -1,0 +1,6 @@
+D=liederindex.de
+MYIP=192.168.3.118
+#MYIP=127.0.0.1
+PORT=9999
+MYURL=http://$MYIP:$PORT
+URL=http://$MYIP:$PORT

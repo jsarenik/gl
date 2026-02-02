@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="de" data-base-url="">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Liederindex.de</title>
+
+	<meta name="og:site_name" content="Liederindex.de" />
+										
+	<link href="/lib/bootstrap-4.3.1-dist/css/bootstrap.min.css?v=7525b86a20" rel="stylesheet"><link href="/lib/mediaelement-4.2.8/mediaelementplayer.min.css?v=7525b86a20" rel="stylesheet"><link href="/css/frontend.css?v=7525b86a20" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png?v=7525b86a20">
+	<link rel="manifest" href="img/favicons/site.webmanifest?v=7525b86a20">
+	<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg?v=7525b86a20" color="#7dcc35">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico?v=7525b86a20">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml?v=7525b86a20">
+	<meta name="theme-color" content="#3b3b3b">
+
+	<base href="">
+
+</head>
+
+<body class="enable-tooltips home">
+<header>
+	<div id="header-bar"></div>
+	<div class="container">
+		<a id="logo" href="">
+			<img src="/img/logo-liederindex.png?v=7525b86a20" />
+		</a>
+		<button id="menu-toggle"><span class="icon-bars"></span></button>
+		<nav id="menu">
+			<ul>
+				<li class="active"><a href=""><span class="icon-home"></span> Start</a></li><li><a href="/songs"><span class="icon-music"></span> Lieder</a></li><li><a href="/authors"><span class="icon-users"></span> Urheber</a></li><li><a href="/blog"><span class="icon-comment"></span> Blog</a></li>			</ul>
+		</nav>
+		<form id="header-search" action="/songs">
+			<input type="text" name="q" placeholder="Suche nach Liedern, Urhebern, ..." />
+			<button type="submit"><span class="icon-search"></span></button>
+		</form>
+		<a id="collector" href="/collector"
+			data-file-ids=""
+			data-hint="&Uuml;ber den Sammler k&ouml;nnen Sie ein Notenheft mit mehreren Notens&auml;tzen erzeugen. F&uuml;gen Sie dazu zun&auml;chst ein oder mehrere Notens&auml;tze dem Sammler hinzu."
+			data-max-files="25"
+			data-max-files-hint="Es k&ouml;nnen maximal 25 Dateien in den Sammler gelegt werden.">
+			<span class="collector-icon">
+				<span class="icon-inbox"></span>
+				<span class="collector-count"><span>0</span></span>
+			</span>
+			<span class="collector-label">
+				Sammler			</span>
+		</a>
+	</div>
+</header>
+
+<article>
+	<div class="container">
+
+				<div class="BlockCmsItem" id="BlockCmsItem_6"><h2>Herzlich willkommen!</h2><p>&hellip; auf Liederindex.de - einer Liederdatenbank mit zahlreichem, guten christlichen Liedgut mit einer st&auml;ndig wachsenden Zahl von Liedern (aktueller Stand: <strong>2.625</strong> Lieder). Viel Freude beim St&ouml;bern und Singen!</p></div><div class="BlockCmsItem" id="BlockCmsItem_8"></div><div class="BlockCmsItem" id="BlockCmsItem_5">		<div class="card bg-light">
+			<div class="card-header">
+				<h3><small><span class="icon-music"></span></small> Lieder suchen</h3>
+			</div>
+			<div class="card-body">
+				<form method="get" class="lister-filter" action="/songs">
+	<div class="row">
+		<div class="col-12 col-sm-8 col-md-9 col-lg-6">
+			<label class="control-label">Suchbegriff</label>
+			<div class="input-group">
+				<input type="text" class="form-control" name="q" value="" placeholder="Name, Urheber, Schlagwort ..." />
+				<span class="input-group-append">
+					<button type="submit" class="btn btn-primary"><span class="icon-search"></span></button>
+				</span>
+			</div>
+		</div>
+		<div class="col-12 col-sm-4 col-md-3 col-lg-2">
+			<label class="control-label d-none d-sm-block">&nbsp;</label>
+			<div class="input-group">
+				<label class="form-control">
+					<input type="checkbox" name="EnableFulltext" value="1"  />
+					Volltext				</label>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-4">
+			<label class="control-label">Kategorie</label>
+			<select name="CategoryIds" class="form-control">
+				<option value="">Alle</option>
+				<option value="726">Abendlied</option><option value="1046">Anl&auml;sse (Geburtstag, etc.)</option><option value="9">Beziehung zum Vater / zum Herrn Jesus</option><option value="1059">Bibeltext</option><option value="26">Christus als Sieger von Golgatha</option><option value="10">Christus in Auferstehung und Herrlichkeit</option><option value="11">Christus in der Mitte der Seinen</option><option value="12">Christus in Erniedrigung, Leiden und Tod</option><option value="13">Christus in ewiger Herrlichkeit</option><option value="14">Durchhilfe auf dem Weg</option><option value="28">Ehe/Hochzeit</option><option value="27">Eintracht/Bruderliebe</option><option value="15">Errettung des S&uuml;nders</option><option value="16">Evangeliumslieder</option><option value="721">Freude am Herrn</option><option value="17">Gebet</option><option value="724">Glaubenskampf</option><option value="725">Gottes F&uuml;hrung</option><option value="18">Gr&ouml;&szlig;e und Macht Gottes</option><option value="24">Heimgang eines Gl&auml;ubigen</option><option value="19">Hingabe</option><option value="20">Hoffnung des Christen</option><option value="729">Jahreswechsel</option><option value="722">J&uuml;ngerschaft</option><option value="30">Kinderlied</option><option value="21">Liebe und G&uuml;te Gottes</option><option value="22">Lob und Anbetung</option><option value="720">Lob und Dank</option><option value="727">Morgenlied</option><option value="723">Sch&ouml;pfung Gottes</option><option value="23">Stellung des Gl&auml;ubigen in Christus</option><option value="829">Trost und Zuspruch</option><option value="938">Weihnachten</option><option value="29">Wiederkommen des Herrn</option><option value="25">Wort Gottes</option>			</select>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-3">
+			<label class="control-label">Chorbesetzung</label>
+			<select name="CastingIds" class="form-control">
+				<option value="">Alle</option>
+				<option value="693">2 Frauen</option><option value="696">3 Frauen</option><option value="697">3 Stimmen gemischt</option><option value="699">4 Frauen</option><option value="703">4 M&auml;nner</option><option value="700">4 Stimmen gemischt</option><option value="702">4 Stimmen gemischt + Soli</option><option value="701">4 Stimmen gemischt + Solo</option><option value="706">5 M&auml;nner</option><option value="705">5 Stimmen gemischt</option><option value="709">6 M&auml;nner</option><option value="708">6 Stimmen gemischt</option><option value="710">8 Stimmen gemischt</option><option value="711">Gesang und Instrument</option><option value="712">Instrumental</option><option value="713">Kanon</option><option value="714">Solo</option><option value="715">Unisono</option>			</select>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-3">
+			<div class="row">
+				<div class="col-6">
+					<label class="control-label">Noten</label>
+					<select name="HasTypesetting" class="form-control">
+						<option value=""  selected="true">Egal</option>
+						<option value="1" >Ja</option>
+						<option value="0" >Nein</option>
+					</select>
+				</div>
+				<div class="col-6">
+					<label class="control-label">Audio</label>
+					<select name="HasAudio" class="form-control">
+						<option value=""  selected="true">Egal</option>
+						<option value="1" >Ja</option>
+						<option value="0" >Nein</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-3">
+			<label class="control-label">Mit instrumental</label>
+			<select name="HasInstrumental" class="form-control">
+				<option value=""  selected="true">Egal</option>
+				<option value="1" >Ja</option>
+				<option value="0" >Nein</option>
+			</select>
+		</div>
+		<div class="col-12 col-sm-6 col-lg-3">
+			<label class="control-label">Erstver&ouml;ffentlichung</label>
+			<select name="IsFirstPublication" class="form-control">
+				<option value=""  selected="true">Egal</option>
+				<option value="1" >Ja</option>
+				<option value="0" >Nein</option>
+			</select>
+		</div>
+	</div>
+</form>			</div>
+		</div>
+</div><div class="BlockCmsItem" id="BlockCmsItem_10">		<div class="card bg-light">
+			<div class="card-header">
+				<h3><small><span class="icon-history"></span> Aktivit&auml;t auf Liederindex.de</small></h3>
+			</div>
+			<div class="list-group changes-list">
+				<a class="list-group-item list-group-item-action" href="/songs/6486"><span class="text-primary">28.01.2026</span> Kommt, lasset uns anbeten! <small class="change-info">Neues Lied</small></a><a class="list-group-item list-group-item-action" href="/songs/6483"><span class="text-primary">28.01.2026</span> Kommt her zu mir! <small class="change-info">Neues Lied</small></a><a class="list-group-item list-group-item-action" href="/songs/4207"><span class="text-secondary">28.01.2026</span> Wem der Herr ein Kreuze schickt <small class="change-info">1 neuer Download</small></a><a class="list-group-item list-group-item-action" href="/songs/2194"><span class="text-secondary">28.01.2026</span> Ich hebe meine Augen auf zu den Bergen(L&uuml;tzel) <small class="change-info">1 neuer Download</small></a><a class="list-group-item list-group-item-action" href="/songs/6490"><span class="text-primary">25.01.2026</span> Also auch, sag ich euch, wird Freude sein <small class="change-info">Neues Lied</small></a><a class="list-group-item list-group-item-action" href="/songs/4207"><span class="text-secondary">24.01.2026</span> Wem der Herr ein Kreuze schickt <small class="change-info">11 neue Downloads</small></a><a class="list-group-item list-group-item-action" href="/songs/2194"><span class="text-secondary">24.01.2026</span> Ich hebe meine Augen auf zu den Bergen(L&uuml;tzel) <small class="change-info">3 neue Downloads</small></a><a class="list-group-item list-group-item-action" href="/songs/25"><span class="text-secondary">24.01.2026</span> Ach, mein Herr Jesus, wenn ich Dich nicht h&auml;tte <small class="change-info">8 neue Downloads</small></a><a class="list-group-item list-group-item-action" href="/songs/2391"><span class="text-secondary">23.01.2026</span> Immer muss ich wieder lesen <small class="change-info">2 neue Strophen</small></a><a class="list-group-item list-group-item-action" href="/songs/25"><span class="text-secondary">23.01.2026</span> Ach, mein Herr Jesus, wenn ich Dich nicht h&auml;tte <small class="change-info">3 neue Downloads</small></a><a class="list-group-item list-group-item-action" href="/songs/4371"><span class="text-secondary">23.01.2026</span> Wer unter dem Schirm des H&ouml;chsten sitzet <small class="change-info">4 neue Downloads</small></a><a class="list-group-item list-group-item-action" href="/songs/2006"><span class="text-secondary">22.01.2026</span> Herz, lass dein Sorgen sein <small class="change-info">1 neuer Download</small></a><a class="list-group-item list-group-item-action" href="/songs/1002"><span class="text-secondary">21.01.2026</span> Eins ist not! Ach Herr, dies Eine <small class="change-info">3 neue Strophen</small></a><a class="list-group-item list-group-item-action" href="/songs/25"><span class="text-secondary">20.01.2026</span> Ach, mein Herr Jesus, wenn ich Dich nicht h&auml;tte <small class="change-info">1 neuer Notensatz</small></a><a class="list-group-item list-group-item-action" href="/songs/2498"><span class="text-secondary">20.01.2026</span> Jauchzet dem Herrn alle Welt <small class="change-info">1 neuer Download</small></a><a class="list-group-item list-group-item-action" href="/songs/6491"><span class="text-primary">19.01.2026</span> Komm, armes Herz, zur Ruh <small class="change-info">Neues Lied</small></a><a class="list-group-item list-group-item-action" href="/songs/2625"><span class="text-secondary">19.01.2026</span> Jesus ist kommen, Grund ewiger Freude <small class="change-info">4 neue Downloads</small></a><a class="list-group-item list-group-item-action" href="/songs/6491"><span class="text-secondary">19.01.2026</span> Komm, armes Herz, zur Ruh <small class="change-info">4 neue Downloads</small></a><a class="list-group-item list-group-item-action" href="/songs/6485"><span class="text-primary">16.01.2026</span> Wenn ich, o Sch&ouml;pfer, Deine Macht (Hellwig) <small class="change-info">Neues Lied</small></a><a class="list-group-item list-group-item-action" href="/songs/2391"><span class="text-secondary">16.01.2026</span> Immer muss ich wieder lesen <small class="change-info">4 neue Downloads</small></a><a class="list-group-item list-group-item-action" href="/songs/5930"><span class="text-secondary">16.01.2026</span> Lobt, ihr erl&ouml;sten Scharen <small class="change-info">4 neue Downloads</small></a><a class="list-group-item list-group-item-action" href="/songs/6485"><span class="text-secondary">16.01.2026</span> Wenn ich, o Sch&ouml;pfer, Deine Macht (Hellwig) <small class="change-info">4 neue Downloads</small></a><a class="list-group-item list-group-item-action" href="/songs/6476"><span class="text-primary">15.01.2026</span> O Jesu Christ, wer Dein gedenkt <small class="change-info">Neues Lied</small></a><a class="list-group-item list-group-item-action" href="/songs/3863"><span class="text-secondary">14.01.2026</span> Stern, auf den ich schaue <small class="change-info">4 neue Downloads</small></a><a class="list-group-item list-group-item-action" href="/songs/3023"><span class="text-secondary">14.01.2026</span> Lobet den Herm! Lobet den Herm <small class="change-info">4 neue Downloads</small></a>			</div>
+		</div>
+	</div><div class="BlockCmsItem" id="BlockCmsItem_4">		<div class="card bg-light">
+			<div class="card-header">
+				<h3><small><span class="icon-comment"></span> Blog</small></h3>
+			</div>
+			<div class="list-group">
+				<a class="list-group-item list-group-item-action" href="/blog/15"><span class="text-primary">24.03.2020</span> Schnelles Auffinden von Liedern<br /><small>Liebe Nutzer,
+wir alle stehen im Moment vor einer sehr ungewohnten Situation, auch im Hinblick auf das gemeinsame Singen.
+Wir sind darauf angesprochen worden, wie man das Auffinden von bekannten Liedern vereinfachen kann und weisen deshalb auf ...</small></a><a class="list-group-item list-group-item-action" href="/blog/14"><span class="text-primary">06.10.2019</span> Der neue Liederindex ist da<br /><small>Endlich ist es so weit - und wir hoffen, dass Sie sich schnell an das neue Layout gew&ouml;hnt haben.
+Neben dem Layout haben wir an der bisherigen Funktionalit&auml;t lediglich die Liedsuche nach Chorbesetzung gesch&auml;rft:
+Hier finden Sie ab sofort die ...</small></a><a class="list-group-item list-group-item-action" href="/blog/13"><span class="text-primary">21.09.2019</span> Liederindex demn&auml;chst in neuem Layout<br /><small>In der letzten Zeit haben wir neben der permanenten Erweiterung der Inhalte auch intensiv an der Neuentwicklung der Webseite gearbeitet. Damit m&ouml;chten wir vor allen Dingen den Nutzern begegnen, die Liederindex.de auch von mobilen Endger&auml;ten aus ...</small></a><a class="list-group-item list-group-item-action" href="/blog/12"><span class="text-primary">15.10.2018</span> Erstver&ouml;ffentlichungen auf liederindex.de<br /><small>Wir freuen uns sehr, dass wir in letzter Zeit eine Reihe neuerer Lieder mit der Genehmigung zur Ver&ouml;ffentlichung erhalten haben, die bisher noch nicht in Liederb&uuml;chern erschienen sind. Teilweise handelt es sich um komplett neue Werke, teilweise ...</small></a><a class="list-group-item list-group-item-action" href="/blog/11"><span class="text-primary">18.08.2018</span> Warum sind manche bekannte Lieder nicht zu finden?<br /><small>Wir werden immer nach Liedern gefragt, die auf Liederindex vermisst werden. 
+
+
+Einer der Hauptgr&uuml;nde ist, dass die rechtliche Situation noch nicht v&ouml;llig gekl&auml;rt ist. V&ouml;llige Freiheit zur Ver&ouml;ffentlichung und Verwendung eines Liedes besteht entweder ...</small></a>			</div>
+			<div class="card-footer text-right">
+				<a class="btn btn-primary" href="/blog">Archiv <span class="icon-arrow-right"></span></a>
+			</div>
+		</div>
+	</div></div>
+</article>
+
+<footer>
+	<div class="container">
+		<div class="footer-row">
+			<div class="footer-left">
+				&copy; 2026 Liederindex.de			</div>
+			<div class="footer-right">
+				<a href="/contact">Kontakt</a><a href="/imprint">Impressum</a><a href="/privacy">Datenschutz</a>			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="/lib/jquery-3.3.1.min.js?v=7525b86a20"></script><script src="/lib/popper.min.js?v=7525b86a20"></script><script src="/lib/bootstrap-4.3.1-dist/js/bootstrap.min.js?v=7525b86a20"></script><script src="/lib/mediaelement-4.2.8/mediaelement-and-player.min.js?v=7525b86a20"></script><script src="/js/frontend.js?v=7525b86a20"></script>
+	<!-- Matomo -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['disableCookies']);
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u = "https://matomo.vvcg.de";
+			_paq.push(['setTrackerUrl', u + 'piwik.php']);
+			_paq.push(['setSiteId', '24']);
+			var d = document,
+				g = d.createElement('script'),
+				s = d.getElementsByTagName('script')[0];
+			g.type = 'text/javascript';
+			g.async = true;
+			g.defer = true;
+			g.src = u + 'piwik.js';
+			s.parentNode.insertBefore(g, s);
+		})();
+	</script>
+	<noscript>
+		<img src="https:https://matomo.vvcg.de/piwik.php?idsite=24&amp;rec=1&amp;action_name=Liederindex.de" style="border:0" alt="" />
+	</noscript>
+	<!-- End Matomo Code -->
+
+</body>
+
+</html>

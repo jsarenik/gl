@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de" data-base-url="https://www.liederindex.de/">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Impressum &bull; Liederindex.de</title>
+
+	<meta name="og:site_name" content="Liederindex.de" />
+										
+	<link href="https://www.liederindex.de/lib/bootstrap-4.3.1-dist/css/bootstrap.min.css?v=7525b86a20" rel="stylesheet"><link href="https://www.liederindex.de/lib/mediaelement-4.2.8/mediaelementplayer.min.css?v=7525b86a20" rel="stylesheet"><link href="https://www.liederindex.de/css/frontend.css?v=7525b86a20" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png?v=7525b86a20">
+	<link rel="manifest" href="img/favicons/site.webmanifest?v=7525b86a20">
+	<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg?v=7525b86a20" color="#7dcc35">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico?v=7525b86a20">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml?v=7525b86a20">
+	<meta name="theme-color" content="#3b3b3b">
+
+	<base href="https://www.liederindex.de/">
+
+</head>
+
+<body class="enable-tooltips">
+<header>
+	<div id="header-bar"></div>
+	<div class="container">
+		<a id="logo" href="https://www.liederindex.de/">
+			<img src="https://www.liederindex.de/img/logo-liederindex.png?v=7525b86a20" />
+		</a>
+		<button id="menu-toggle"><span class="icon-bars"></span></button>
+		<nav id="menu">
+			<ul>
+				<li><a href="https://www.liederindex.de/"><span class="icon-home"></span> Start</a></li><li><a href="https://www.liederindex.de/songs"><span class="icon-music"></span> Lieder</a></li><li><a href="https://www.liederindex.de/authors"><span class="icon-users"></span> Urheber</a></li><li><a href="https://www.liederindex.de/blog"><span class="icon-comment"></span> Blog</a></li>			</ul>
+		</nav>
+		<form id="header-search" action="https://www.liederindex.de/songs">
+			<input type="text" name="q" placeholder="Suche nach Liedern, Urhebern, ..." />
+			<button type="submit"><span class="icon-search"></span></button>
+		</form>
+		<a id="collector" href="https://www.liederindex.de/collector"
+			data-file-ids=""
+			data-hint="&Uuml;ber den Sammler k&ouml;nnen Sie ein Notenheft mit mehreren Notens&auml;tzen erzeugen. F&uuml;gen Sie dazu zun&auml;chst ein oder mehrere Notens&auml;tze dem Sammler hinzu."
+			data-max-files="25"
+			data-max-files-hint="Es k&ouml;nnen maximal 25 Dateien in den Sammler gelegt werden.">
+			<span class="collector-icon">
+				<span class="icon-inbox"></span>
+				<span class="collector-count"><span>0</span></span>
+			</span>
+			<span class="collector-label">
+				Sammler			</span>
+		</a>
+	</div>
+</header>
+
+<article>
+	<div class="container">
+
+							<h1>
+				Impressum			</h1>
+		<div class="BlockCmsItem" id="BlockCmsItem_2"><p>Diese Seite wurde am 01.01.2014 online gestellt, um gutes christliches Liedgut, d. h. Lieder, deren Inhalt sich klar an den Aussagen der Bibel orientiert, aufbereitet und indiziert f&uuml;r Musiker, Ch&ouml;re und Freunde christlicher Lieder zur Verf&uuml;gung zu stellen.</p>
+<p>Wir wollen haupts&auml;chlich Liedtexte, Noten und Audio-Versionen ver&ouml;ffentlichen, sp&auml;ter auch Hintergr&uuml;nde zu Dichtern und der Entstehung der Lieder. Dabei liegt der Schwerpunkt zun&auml;chst auf Liedern aus inzwischen vergriffenen Liederb&uuml;chern. Die Lieder sind verschlagwortet und kategorisiert, um eine schnelle und effiziente Suche zu erm&ouml;glichen.</p>
+<p>Diese Arbeit ist aus dem eigenen Bed&uuml;rfnis nach einer umfassenden Liederdatenbank als Unterst&uuml;tzung f&uuml;r christliche Ensembles entstanden, wir verfolgen keinerlei kommerzielles Interesse. Da wir in unserer Freizeit daran arbeiten, werden wir das Notenmaterial nur schrittweise online stellen k&ouml;nnen.</p>
+<p>Wir haben das Projekt 2 Jahre vor dem Start der Webseite begonnen. Die gr&ouml;&szlig;te Herausforderung dabei ist nicht die Technik, auch nicht der administrative Aufwand, sondern die rechtliche Situation. Viele Liedtexte, Notens&auml;tze etc. sind rechtlich gesch&uuml;tzt, was es sehr schwierig macht, sie online zur Verf&uuml;gung zu stellen. Auf der einen Seite m&ouml;chten wir den gr&ouml;&szlig;tm&ouml;glichen Nutzen mit Liederindex.de erreichen, auf der anderen Seite aber keine Rechte verletzen. Wenn uns Letzteres dennoch unwissend unterlaufen ist, bitten wir freundlichst um einen Hinweis, dem wir unverz&uuml;glich nachgehen werden.</p>
+<p>Vielleicht wird das eine oder andere bekannte Lied auf dieser Seite vermisst. Das liegt zum einen daran, dass die Seite noch w&auml;chst, mag aber zum anderen auch an der inhaltlichen Beurteilung des Liedtextes liegen.</p>
+<p>Wir sind dankbar f&uuml;r viele Zuschriften und Anregungen und freuen uns &uuml;ber Resonanz aus dem Nutzerkreis. Wir hoffen und beten, dass Menschen durch diese Arbeit n&auml;her zu Gott gef&uuml;hrt werden. &bdquo;Lasst das Wort des Christus reichlich in euch wohnen, indem ihr in aller Weisheit euch gegenseitig lehrt und ermahnt mit Psalmen, Lobliedern und geistlichen Liedern, Gott singend in euren Herzen in Gnade.&ldquo; (Kolosser 3,16)</p></div><div class="BlockCmsItem" id="BlockCmsItem_12">
+		
+		<h2 id="Privacy_Rechtsperson">Träger</h2><p style="margin-top: 1em;"><a target="_blank" href="https://www.vvcg.de"><img src="data:image/png;base64,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" alt="Verbreitung des christlichen Glaubens e.V. (VCG) Logo" style="max-width: 200px;" /></a></p><p><b>Verbreitung des christlichen Glaubens e.V. (VCG)</b><br />Auf der Heilen 21<br />51674 Wiehl<br />Deutschland</p><p>Website: <a target="_blank" href="https://www.vvcg.de">www.vvcg.de</a><br />Vereinsregister: VR 601342<br />Registergericht: Amtsgericht K&ouml;ln<br />USt-IdNr.: DE346446170<br />Vertreten durch: Andreas Hardt, Klaus Brinkmann, Bernhard Brockhaus</p>
+	<p><b>Bankverbindung:</b></p>
+	<p>
+		Commerzbank Rees<br />
+		IBAN DE77 3244 0023 0464 6600 00<br />
+		BIC COBADEFFXXX
+	</p>
+<h2 id="Privacy_Redaktion">Redaktionell verantwortlich</h2>
+<p>
+	Manfred Bockm&uuml;hl<br />Bahnhofstra&szlig;e 19<br />55457 Gensingen
+</p>
+<h2 id="Privacy_Kontakt">Kontakt</h2>
+	<p>
+		Telefon: +49 (0) 6727 / 952063<br />E-Mail: info@liederindex.de
+	</p>
+<h2 id="Privacy_Streitschlichtung">EU-Streitschlichtung</h2>
+	<p>
+		Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a target="_blank" href="https://ec.europa.eu/consumers/odr/">https://ec.europa.eu/consumers/odr/</a>.
+		Unsere E-Mail-Adresse finden Sie oben im Impressum.
+	</p>
+<h2 id="Privacy_Schlichtungsstelle">Verbraucherstreitbeilegung / Universalschlichtungsstelle</h2>
+	<p>
+		Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+	</p>
+</div><div class="BlockCmsItem" id="BlockCmsItem_13"><h2>Urheberrechte</h2>
+<p>Die ver&ouml;ffentlichten Liedertexte, Noten- und Audiodateien unterliegen zum Teil dem Urheberrechtschutz. Der Ausdruck und/oder die Verwendung zum pers&ouml;nlichen und gemeinsamen nicht kommerziellen Gebrauch (z. B. Gesang) ist ein Ziel dieser Web-Seite und daher ausdr&uuml;cklich erw&uuml;nscht. Soweit erforderlich, haben die Urheber dieser Verwendung zugestimmt.</p>
+<p>Wenn die Werke nach unserer Kenntnis nicht dem Urheberrechtschutz unterliegen, enthalten die Liedbl&auml;tter lediglich den Hinweis "www.liederindex.de" am Fu&szlig; der Seite. Ansonsten ist der Hinweis auf die Urheberrechte am Fu&szlig; der Seite ausdr&uuml;cklich vermerkt. Sollten Sie weitere Fragen zu diesem Thema haben, d&uuml;rfen Sie sich gerne an uns wenden.</p>
+<h2>Disclaimer</h2>
+<p>Keine Haftung f&uuml;r den Inhalt externer Links!<br /> Nachdruck von Inhalten, die nicht gemeinfrei sind, nur mit Zustimmung des Urhebers, auch auszugsweise.<br /> Keine Vervielf&auml;ltigung, weitere Verbreitung oder Nutzung f&uuml;r kommerzielle Zwecke.</p>
+<h2>Webumsetzung</h2>
+<p>Johannes Runkel (<a href="https://www.jrunkel.de" target="_blank">www.jrunkel.de</a>)</p></div></div>
+</article>
+
+<footer>
+	<div class="container">
+		<div class="footer-row">
+			<div class="footer-left">
+				&copy; 2026 Liederindex.de			</div>
+			<div class="footer-right">
+				<a href="https://www.liederindex.de/contact">Kontakt</a><a href="https://www.liederindex.de/imprint">Impressum</a><a href="https://www.liederindex.de/privacy">Datenschutz</a>			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://www.liederindex.de/lib/jquery-3.3.1.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/lib/popper.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/lib/bootstrap-4.3.1-dist/js/bootstrap.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/lib/mediaelement-4.2.8/mediaelement-and-player.min.js?v=7525b86a20"></script><script src="https://www.liederindex.de/js/frontend.js?v=7525b86a20"></script>
+	<!-- Matomo -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['disableCookies']);
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u = "https://matomo.vvcg.de/";
+			_paq.push(['setTrackerUrl', u + 'piwik.php']);
+			_paq.push(['setSiteId', '24']);
+			var d = document,
+				g = d.createElement('script'),
+				s = d.getElementsByTagName('script')[0];
+			g.type = 'text/javascript';
+			g.async = true;
+			g.defer = true;
+			g.src = u + 'piwik.js';
+			s.parentNode.insertBefore(g, s);
+		})();
+	</script>
+	<noscript>
+		<img src="https:https://matomo.vvcg.de/piwik.php?idsite=24&amp;rec=1&amp;action_name=Impressum%20%E2%80%A2%20Liederindex.de" style="border:0" alt="" />
+	</noscript>
+	<!-- End Matomo Code -->
+
+</body>
+
+</html>
