@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sh scripts/addsymlinks.sh
+#sh scripts/addsymlinks.sh
