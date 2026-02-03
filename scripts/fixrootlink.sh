@@ -1,5 +1,5 @@
-git grep 'href=""' | cut -d: -f1 | sort -u \
-  | grep -w -v scripts | while read file
+git grep '=""' | cut -d: -f1 | sort -u | grep -v "scripts\|Binary" \
+  | while read myf rest
 do
-  sed 's|href=""|href="/"|g' $file | safecat.sh $file
+  cat "$myf" | sh scripts/mysed.sh | safecat.sh "$myf"
 done

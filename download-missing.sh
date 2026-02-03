@@ -29,11 +29,18 @@ myget() {
   if
     echo $IN | grep 'songs/[0-9]\+/$'
   then
-    torify wget -c -O "-" "$URL/$OUT" | sh mysed.sh | safecat.sh "$OUT/index.html"
+    torify wget -c -O "-" "$URL/$OUT" | sh scripts/mysed.sh | safecat.sh "$OUT/index.html"
   else
-    #torify wget -c -O "-" "$URL/$OUT" | sh mysed.sh | safecat.sh "$OUT"
-    torify wget -c -O "$OUT" "$URL/$OUT"
+    if
+      echo $IN | grep 'blog/[0-9]\+$'
+    then
+      torify wget -c -O "-" "$URL/$OUT" | sh scripts/mysed.sh | safecat.sh "$OUT.html"
+    else
+      #torify wget -c -O "-" "$URL/$OUT" | sh scripts/mysed.sh | safecat.sh "$OUT"
+      torify wget -c -O "$OUT" "$URL/$OUT"
+    fi
   fi
+
 }
 
 while true

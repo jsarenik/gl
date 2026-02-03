@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" data-base-url="">
+<html lang="de" data-base-url="/">
 
 <head>
 
@@ -12,14 +12,14 @@
 	<meta name="og:site_name" content="Liederindex.de" />
 										
 	<link href="/lib/bootstrap-4.3.1-dist/css/bootstrap.min.css?v=7525b86a20" rel="stylesheet"><link href="/lib/mediaelement-4.2.8/mediaelementplayer.min.css?v=7525b86a20" rel="stylesheet"><link href="/css/frontend.css?v=7525b86a20" rel="stylesheet">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png?v=7525b86a20">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png?v=7525b86a20">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png?v=7525b86a20">
-	<link rel="manifest" href="img/favicons/site.webmanifest?v=7525b86a20">
-	<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg?v=7525b86a20" color="#7dcc35">
-	<link rel="shortcut icon" href="img/favicons/favicon.ico?v=7525b86a20">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png?v=7525b86a20">
+	<link rel="manifest" href="/img/favicons/site.webmanifest?v=7525b86a20">
+	<link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg?v=7525b86a20" color="#7dcc35">
+	<link rel="shortcut icon" href="/img/favicons/favicon.ico?v=7525b86a20">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-config" content="img/favicons/browserconfig.xml?v=7525b86a20">
+	<meta name="msapplication-config" content="/img/favicons/browserconfig.xml?v=7525b86a20">
 	<meta name="theme-color" content="#3b3b3b">
 
 	<base href="/">
