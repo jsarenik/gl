@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de" data-base-url="">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Schnelles Auffinden von Liedern &bull; Liederindex.de</title>
+
+	<meta name="og:site_name" content="Liederindex.de" />
+										
+	<link href="/lib/bootstrap-4.3.1-dist/css/bootstrap.min.css?v=7525b86a20" rel="stylesheet"><link href="/lib/mediaelement-4.2.8/mediaelementplayer.min.css?v=7525b86a20" rel="stylesheet"><link href="/css/frontend.css?v=7525b86a20" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png?v=7525b86a20">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png?v=7525b86a20">
+	<link rel="manifest" href="/img/favicons/site.webmanifest?v=7525b86a20">
+	<link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg?v=7525b86a20" color="#7dcc35">
+	<link rel="shortcut icon" href="/img/favicons/favicon.ico?v=7525b86a20">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="/img/favicons/browserconfig.xml?v=7525b86a20">
+	<meta name="theme-color" content="#3b3b3b">
+
+	<base href="/">
+
+</head>
+
+<body class="enable-tooltips">
+<header>
+	<div id="header-bar"></div>
+	<div class="container">
+		<a id="logo" href="/">
+			<img src="/img/logo-liederindex.png?v=7525b86a20" />
+		</a>
+		<button id="menu-toggle"><span class="icon-bars"></span></button>
+		<nav id="menu">
+			<ul>
+				<li><a href="/"><span class="icon-home"></span> Start</a></li><li><a href="/songs"><span class="icon-music"></span> Lieder</a></li><li><a href="/authors"><span class="icon-users"></span> Urheber</a></li><li class="active"><a href="/blog"><span class="icon-comment"></span> Blog</a></li>			</ul>
+		</nav>
+		<form id="header-search" action="/songs">
+			<input type="text" name="q" placeholder="Suche nach Liedern, Urhebern, ..." />
+			<button type="submit"><span class="icon-search"></span></button>
+		</form>
+		<a id="collector" href="/collector"
+			data-file-ids=""
+			data-hint="&Uuml;ber den Sammler k&ouml;nnen Sie ein Notenheft mit mehreren Notens&auml;tzen erzeugen. F&uuml;gen Sie dazu zun&auml;chst ein oder mehrere Notens&auml;tze dem Sammler hinzu."
+			data-max-files="25"
+			data-max-files-hint="Es k&ouml;nnen maximal 25 Dateien in den Sammler gelegt werden.">
+			<span class="collector-icon">
+				<span class="icon-inbox"></span>
+				<span class="collector-count"><span>0</span></span>
+			</span>
+			<span class="collector-label">
+				Sammler			</span>
+		</a>
+	</div>
+</header>
+
+<article>
+	<div class="container">
+
+							<h1>
+				Schnelles Auffinden von Liedern<br /><small>24.03.2020</small>			</h1>
+		<p>Liebe Nutzer,</p>
+<p>wir alle stehen im Moment vor einer sehr ungewohnten Situation, auch im Hinblick auf das gemeinsame Singen.</p>
+<p>Wir sind darauf angesprochen worden, wie man das Auffinden von bekannten Liedern vereinfachen kann und weisen deshalb auf folgende M&ouml;glichkeit hin:</p>
+<p>F&uuml;r einige Liederb&uuml;cher k&ouml;nnen die auf liederindex.de vorhandenen Lied Eintr&auml;ge auch durch die Eingabe einer Kurzbezeichnung f&uuml;r das Liederbuch und die Liednummer im Feld "Suchbegriff" ausgew&auml;hlt werden. Z. B. "GL 140" f&uuml;hrt direkt zu dem Lied "Herr, das Wort aus Deinem Munde".</p>
+<p>Realisiert ist diese Funktion f&uuml;r&nbsp;</p>
+<p>GL - Geistliche Lieder (CSV)</p>
+<p>GL1 - Glaubenslieder 1</p>
+<p>JN1 bis JN6 f&uuml;r Jesu Name</p><p><button class="btn btn-dark" disabled="true"><span class="icon-arrow-left"></span> Neuer</button> <a class="btn btn-dark" href="/blog/14">&Auml;lter <span class="icon-arrow-right"></span></a></p></div>
+</article>
+
+<footer>
+	<div class="container">
+		<div class="footer-row">
+			<div class="footer-left">
+				&copy; 2026 Liederindex.de			</div>
+			<div class="footer-right">
+				<a href="/contact">Kontakt</a><a href="/imprint">Impressum</a><a href="/privacy">Datenschutz</a>			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="/lib/jquery-3.3.1.min.js?v=7525b86a20"></script><script src="/lib/popper.min.js?v=7525b86a20"></script><script src="/lib/bootstrap-4.3.1-dist/js/bootstrap.min.js?v=7525b86a20"></script><script src="/lib/mediaelement-4.2.8/mediaelement-and-player.min.js?v=7525b86a20"></script><script src="/js/frontend.js?v=7525b86a20"></script>
+	<!-- Matomo -->
+	<script type="text/javascript">
+		var _paq = _paq || [];
+		_paq.push(['disableCookies']);
+		_paq.push(['trackPageView']);
+		_paq.push(['enableLinkTracking']);
+		(function() {
+			var u = "https://matomo.vvcg.de";
+			_paq.push(['setTrackerUrl', u + 'piwik.php']);
+			_paq.push(['setSiteId', '24']);
+			var d = document,
+				g = d.createElement('script'),
+				s = d.getElementsByTagName('script')[0];
+			g.type = 'text/javascript';
+			g.async = true;
+			g.defer = true;
+			g.src = u + 'piwik.js';
+			s.parentNode.insertBefore(g, s);
+		})();
+	</script>
+	<noscript>
+		<img src="https:https://matomo.vvcg.de/piwik.php?idsite=24&amp;rec=1&amp;action_name=Schnelles%20Auffinden%20von%20Liedern%20%E2%80%A2%20Liederindex.de" style="border:0" alt="" />
+	</noscript>
+	<!-- End Matomo Code -->
+
+</body>
+
+</html>
