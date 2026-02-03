@@ -9,6 +9,6 @@ do
   nf=$(echo $fp | cut -d/ -f3)
   echo $nf | grep -q '\.pdf$' && continue
   echo $song $nf
-  sed -i "s|/songs/$song/file/$nf|/songs/$song/file/${nf}.pdf|" "$song/index.html"
+  sed -i "s|/songs/$song/file/$nf|/songs/$song/file/${nf}.pdf|g" "$song/index.html"
   git mv "$song/file/$nf" "$song/file/${nf}.pdf"
 done
