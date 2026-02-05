@@ -35,7 +35,7 @@
 
 </head>
 
-<body class="enable-tooltips">
+<body onload="readyFn()" class="enable-tooltips">
 <header>
 	<div id="header-bar"></div>
 	<div class="container">
@@ -174,8 +174,21 @@ Du kommst bald zur&uuml;ck.</p></div></div>	</div>
 	</div>
 </footer>
 
-<script src="/lib/jquery-3.3.1.min.js?v=7525b86a20"></script><script src="/lib/popper.min.js?v=7525b86a20"></script><script src="/lib/bootstrap-4.3.1-dist/js/bootstrap.min.js?v=7525b86a20"></script><script src="/lib/mediaelement-4.2.8/mediaelement-and-player.min.js?v=7525b86a20"></script><script src="/js/frontend.js?v=7525b86a20"></script>
-
+<script src="/lib/jquery-3.3.1.min.js?v=8525b86a20"></script><script src="/lib/popper.min.js?v=7525b86a20"></script><script src="/lib/bootstrap-4.3.1-dist/js/bootstrap.min.js?v=7525b86a20"></script><script src="/lib/mediaelement-4.2.8/mediaelement-and-player.min.js?v=7525b86a20"></script><script src="/js/frontend.js?v=7525b86a20"></script>
+<script src="/lib/darkreader.min.js?v=1"></script>
+<script>
+var prefersDark = Boolean(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+function readyFn( jQuery ) {
+  if ( prefersDark && window.DarkReader ){
+    DarkReader.enable({
+      brightness: 100,
+      contrast: 90,
+      sepia: 10
+    });
+  } else {
+    window.setTimeout("readyFn();",20);
+  }
+}
+</script>
 </body>
-
 </html>
